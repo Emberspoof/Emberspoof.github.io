@@ -1,36 +1,40 @@
-body {
-  background-color: powderblue;
-}
-h1 {
-  color: blue;
-}
-p {
-  color: red;
-}
-/** CSS comments are written enclosed with these characters **/
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
 
-.Container{
-    Width: 100vmin; #FFFF00
+body {
+    background-color: powderblue;
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: red;
+}
+
+/* CSS comments are written enclosed with these characters */
+
+.Container {
+    width: 100vmin;
     position: absolute;
-    transform: translate(-50%)
-    top: 240px:
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
     background-color: #000000;
 }
 
-.tabs {
+.Tab {
     display: grid;
-    grid-template-columns: repeat(4,1fr));
+    grid-template-columns: repeat(4, 1fr);
 }
-.tab-content h3 { 
-    font-size: 25;
+
+.Tab-content h3 {
+    font-size: 25px;
 }
+
 .myclass {
-  background-color: #fff7e8; /** hex codes also work for colors **/
+    background-color: #fff7e8;
 }
 
 #unique-id {
-  font-family: Arial, Helvetica, sans-serif; /** you can specify common font families OR link to a Google Font API **/
+    font-family: Arial, Helvetica, sans-serif;
 }
