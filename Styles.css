@@ -1,6 +1,6 @@
 
 body {
-    background-color: powderblue;
+    background-color: 7D79DC;
 }
 
 h1 {
@@ -19,7 +19,7 @@ p {
     top: 240px;
     left: 50%;
     transform: translateX(-50%);
-    background-color: #000000;
+    background-color: #7D79DC;
 }
 
 .Tab {
@@ -32,7 +32,7 @@ p {
 }
 
 .myclass {
-    background-color: #fff7e8;
+    background-color: #000000;
 }
 
 #unique-id {
